@@ -59,7 +59,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 920px;
+  width: 64vw;
+  min-width: 920px;
   height: 80vh;
   position: relative;
   top: 110px;
@@ -118,50 +119,38 @@ body {
 .experience-info {
   display: flex;
   flex-direction: row;
-  margin-bottom: 40px;
+  margin-bottom: 7vh;
 }
 
 .experience-img {
   width: 400px;
+  height: 170px;
   margin-right: 50px;
   box-shadow: 2px 2px 4px grey;
   border-radius: 10px;
 }
 
-#nextdoor {
-  height: 150px;
-}
-
-#amazon {
-  height: 180px;
-}
-
-.experience-text-container-nextdoor {
+.experience-text-container {
   font-family: "Lato", sans-serif;
   color: #888484;
-  margin-top: 4px;
-}
-
-.experience-text-container-amazon {
-  font-family: "Lato", sans-serif;
-  color: #888484;
-  margin-top: 15px;
+  margin: auto 0 auto 0;
 }
 
 .experience-title {
-  font-size: 20px;
+  font-size: 2.9vh;
   margin: 0;
 }
 
 .experience-text {
   margin: 10px 0 10px 0;
-  line-height: 29px;
-  font-size: 16px;
+  line-height: 4vh;
+  font-size: 2.2vh;
 }
 
 #projects-container {
   margin: 0 150px 0 150px;
   height: 60vh;
+  width: 100vw;
   position: relative;
   top: 200px;
 }
@@ -176,31 +165,31 @@ body {
 .projects-imgs-row {
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
+  margin-top: 3vh;
 }
 
 .img-container {
-  height: 250px;
-  width: 500px;
+  height: 17.5vw;
+  width: 35vw;
   position: relative;
   overflow: hidden;
-  margin: 0px 50px 0 0;
+  margin-right: 6vw;
   box-shadow: 2px 2px 4px grey;
   border-radius: 10px;
 }
 
 .projects-img {
-  height: 250px;
-  width: 500px;
+  height: 17.5vw;
+  width: 35vw;
   object-fit: cover;
 }
 
 .img-text-background {
   background: rgba(0, 0, 0, 0.65);
-  height: 250px;
-  width: 500px;
+  height: 17.5vw;
+  width: 35vw;
   position: absolute;
-  top: 250;
+  top: 17.5vw;
   left: 0;
 }
 
@@ -211,32 +200,33 @@ body {
 }
 
 .img-title {
-  font-size: 28px;
+  font-size: 1.8vw;
   font-weight: bold;
   margin: 0;
 }
 
 .img-subtitle {
-  font-size: 18px;
+  font-size: 1.4vw;
   position: relative;
   top: -18px;
   font-style: italic;
   font-weight: 300;
+  margin-bottom: 0;
 }
 
 .img-description {
-  line-height: 25px;
-  font-size: 18px;
+  line-height: 1.7vw;
+  font-size: 1.3vw;
   position: relative;
-  top: -22px;
+  margin-top: 0;
   font-weight: 300;
 }
 
 .tools-container {
   display: flex;
   flex-direction: row;
-  position: relative;
-  top: -27px;
+  position: absolute;
+  bottom: 2vh;
 }
 
 .tool {
@@ -250,17 +240,13 @@ body {
 
 #anova-description,
 #boba-description {
-  top: -12px;
-}
-
-#anova-tools,
-#boba-tools {
-  top: -5px;
+  margin-top: 0.5vw;
 }
 
 #skills-container {
   margin: 0 150px 0 150px;
   height: 60vh;
+  width: 80vw;
   position: relative;
   top: 250px;
 }
@@ -269,22 +255,22 @@ body {
   display: flex;
   flex-direction: row;
   color: #888484;
+  justify-content: space-between;
   align-items: flex-start;
   position: relative;
   top: -20px;
-  font-size: 18px;
+  font-size: 2.7vh;
 }
 
 .skills-column {
   display: flex;
   flex-direction: column;
   font-family: "Lato", sans-serif;
-  margin-right: 7vw;
   min-width: 200px;
 }
 
 .skills-title {
-  font-size: 28px;
+  font-size: 3.9vh;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -300,21 +286,25 @@ body {
   top: 250px;
 }
 
+#about-me-title {
+  margin-bottom: 0;
+}
+
 #about-me-info {
   display: flex;
   flex-direction: row;
   font-family: "Mukta", sans-serif;
   color: #888484;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 2.8vh;
   position: relative;
-  top: -50px;
+  margin-top: 2vw;
 }
 
 #about-me-text {
   display: flex;
   flex-direction: column;
-  line-height: 29px;
+  line-height: 3.8vh;
 }
 
 #connect {

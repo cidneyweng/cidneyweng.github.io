@@ -3,7 +3,7 @@ $("#red-container").hover(
     $("#red").animate({ top: 0 }, 500);
   },
   function () {
-    $("#red").animate({ top: "250" }, 500);
+    $("#red").animate({ top: "17.5vw" }, 500);
   }
 );
 
@@ -12,7 +12,7 @@ $("#anova-container").hover(
     $("#anova").animate({ top: 0 }, 500);
   },
   function () {
-    $("#anova").animate({ top: "250" }, 500);
+    $("#anova").animate({ top: "17.5vw" }, 500);
   }
 );
 
@@ -21,7 +21,7 @@ $("#energy-container").hover(
     $("#energy").animate({ top: 0 }, 500);
   },
   function () {
-    $("#energy").animate({ top: "250" }, 500);
+    $("#energy").animate({ top: "17.5vw" }, 500);
   }
 );
 
@@ -30,7 +30,7 @@ $("#boba-container").hover(
     $("#boba").animate({ top: 0 }, 500);
   },
   function () {
-    $("#boba").animate({ top: "250" }, 500);
+    $("#boba").animate({ top: "17.5vw" }, 500);
   }
 );
 
