@@ -61,7 +61,7 @@ body {
   margin-right: auto;
   width: 64vw;
   min-width: 920px;
-  height: 80vh;
+  height: 81vh;
   position: relative;
   top: 110px;
 }
@@ -70,31 +70,34 @@ body {
   width: 100%;
 }
 
+#home-text {
+  position: absolute;
+  top: 17vh;
+  left: 12vw;
+  margin: auto;
+  width: 42vw;
+}
+
 #cidney {
   position: relative;
-  text-align: center;
   font-family: "Lato", sans-serif;
   color: #888484;
-  font-size: 83px;
-  bottom: 430px;
+  font-size: 11.5vh;
 }
 
 #subheading {
   position: relative;
   font-family: "Lato", sans-serif;
   color: #888484;
-  font-size: 45px;
-  bottom: 470px;
-  left: 175px;
+  font-size: 6vh;
+  bottom: 40px;
 }
 
 #arrow {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  bottom: 290px;
-  height: 25px;
+  height: 3.5vh;
+  position: absolute;
+  bottom: 0px;
+  left: 30.5vw;
 }
 
 #arrow:hover {
@@ -104,7 +107,7 @@ body {
 
 .page-title {
   font-family: "Lato", sans-serif;
-  font-size: 50px;
+  font-size: 7vh;
   color: #888484;
   margin-bottom: 60px;
 }
