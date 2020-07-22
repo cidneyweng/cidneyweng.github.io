@@ -73,9 +73,10 @@ body {
 #home-text {
   position: absolute;
   top: 17vh;
-  left: 12vw;
+  left: 11vw;
   margin: auto;
   width: 42vw;
+  min-width: 750px;
 }
 
 #cidney {
